@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+#stopwatch{
+    width:600px;
+    border:1px solid rgb(203, 200, 200);
+    border-radius: 10px;
+    font-family: 'Assistant';
+    box-shadow: 2px 2px 5px rgb(222, 222, 222);
+}
+
+#watch{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.tblock{
+    display:flex;
+    flex-direction:column;
+}
+
+.tblock>p{
+    text-align: center;
+}
+
+.time{
+    width:100px;
+    height:100px;
+    border:1px solid rgb(203, 200, 200);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin:25px 0px 10px 0px;
+    box-shadow: 2px 2px 5px rgb(222, 222, 222);
+}
+
+#hr-text{
+    font-size:16px;
+    margin:0px;
+}
+
+#min-text{
+    font-size: 16px;
+    margin:0px;
+}
+
+#sec-text{
+    font-size:16px;
+    margin:0px;
+}
+
+#csec-text{
+    font-size:16px;
+    margin:0px;
+}
+
+#btngrp{
+    display:flex;
+    justify-content:center;
+    margin:40px 0px 25px 0px;
+    gap:30px;
+}
+
+#btngrp>button{
+    padding:10px 20px;
+    letter-spacing: 0.07em;
+    font-size: 14px;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    box-shadow: 2px 2px 5px rgb(222, 222, 222);
+}
+
+#start{
+    background-color: rgb(63, 160, 63);
+}
+
+#start:hover{
+    background-color: rgb(53, 123, 53);
+}
+
+#stop{
+    background-color: rgb(198, 57, 57);
+}
+
+#stop:hover{
+    background-color: rgb(189, 27, 27);
+}
+
+#reset{
+    background-color: rgb(27, 129, 231);
+}
+
+#reset:hover{
+    background-color: rgb(27, 112, 197);
+}
